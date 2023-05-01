@@ -35,6 +35,16 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "babel-loader", // 바벨 로더를 추가한다
+      },
+      {
+        test: /\.(ts|tsx|js|jsx)$/,
+        exclude: /node_modules/,
+        loader: "babel-loader",
+      },
+      {
         test: /\.(gif|jpe?g|png|webp|svg)$/i,
         type: "asset",
       },
