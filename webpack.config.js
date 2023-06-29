@@ -8,7 +8,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 module.exports = {
   mode: "development",
   entry: {
-    main: "./src/app.js",
+    main: "./src/index.jsx",
   },
   output: {
     filename: "[name].js",
@@ -35,12 +35,7 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: "babel-loader", // 바벨 로더를 추가한다
-      },
-      {
-        test: /\.(ts|tsx|js|jsx)$/,
+        test: /\.(js|jsx)$/i,
         exclude: /node_modules/,
         loader: "babel-loader",
       },
@@ -87,5 +82,12 @@ module.exports = {
     splitChunks: {
       chunks: "all",
     },
+  },
+  resolve: {
+    // 절대 경로 설정
+    alias: {
+      "@": path.resolve(__dirname, "./src/"),
+    },
+    extensions: [".js", ".ts", ".jsx", ".tsx", ".css", ".scss", ".json"],
   },
 };
