@@ -1,6 +1,7 @@
 // import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "@/components/Home/Home";
+import "@/app.css";
+import { Home, MouseCusor } from "@/pages";
 // import Navbar from "@/components/Navbar/Navbar";
 
 const App = () => {
@@ -9,15 +10,11 @@ const App = () => {
       <Routes>
         {/* <Route element={<Navbar />}> */}
         <Route path="/" element={<Home />} />
-        <Route path="/mouse_cursor" element={<AAA />} />
+        <Route path="/mouse_cursor" element={<MouseCusor />} />
         {/* </Route> */}
       </Routes>
     </BrowserRouter>
   );
 };
-
-function AAA() {
-  return <h1>Hello AAA</h1>;
-}
 
 export default App;
