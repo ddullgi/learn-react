@@ -1,5 +1,6 @@
 module.exports = {
   presets: [
+    ["@babel/preset-react", { runtime: "automatic" }],
     [
       //? preset-env는 ECMAScript2015+를 변환할 때 사용한다.
       "@babel/preset-env",
