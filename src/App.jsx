@@ -2,6 +2,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "@/app.css";
 import { Home, MouseCusor, MineSweeper } from "@/pages";
+import { WebAnimaitonsAPI } from "./pages";
 // import Navbar from "@/components/Navbar/Navbar";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/mouse_cursor" element={<MouseCusor />} />
         <Route path="/mine_sweeper" element={<MineSweeper />} />
+        <Route path="/web_animaitons_API" element={<WebAnimaitonsAPI />}></Route>
         {/* </Route> */}
       </Routes>
     </BrowserRouter>
