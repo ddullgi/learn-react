@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CSSTransition } from "../../components";
+import { CSSTransition } from "@/components";
 
 const WebAnimaitonsAPI = () => {
   const [lecture, setLecture] = useState("CSSTransition");
