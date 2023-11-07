@@ -1,0 +1,15 @@
+.css {
+  color: white;
+  background-color: rgb(200, 75, 49);
+  position: absolute;
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.css::after {
+  content: "Activity.";
+  position: absolute;
+  color: rgb(34, 40, 49);
+  top: -0.3rem;
+  left: -0.3rem;
+}

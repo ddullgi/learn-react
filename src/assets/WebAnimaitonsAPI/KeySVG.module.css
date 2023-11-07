@@ -1,0 +1,25 @@
+.cls_1 {
+  fill: #d3d3d3;
+}
+
+.cls_1,
+.cls_2 {
+  stroke: #231815;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 10px;
+}
+
+.cls_2 {
+  fill: #454545;
+}
+
+.key_blade {
+  transition: 0.5s;
+  transform: rotate(-180deg);
+  transform-origin: 219.59px 211.59px;
+}
+
+.key_blade_flipped {
+  transform: rotate(0);
+}
