@@ -10,3 +10,22 @@
   transform: translateX(300px);
   background: blue;
 }
+
+.container {
+  position: relative;
+}
+
+.hand {
+  position: absolute;
+  width: 200px;
+  left: 400px;
+  top: 140px;
+}
+
+.key {
+  position: absolute;
+  width: 150px;
+  left: 50px;
+  top: 100px;
+  transition: 1s;
+}

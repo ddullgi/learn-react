@@ -1,0 +1,3506 @@
+{
+  "boss": {
+    "boss1": {
+      "adef": 6,
+      "ar": 6,
+      "as": 889,
+      "atk": 36,
+      "av": 10,
+      "cd": 151,
+      "cr": 6,
+      "def": 11,
+      "exp": 66000,
+      "gold": 7000,
+      "hp": 5680,
+      "level": 1,
+      "matk": 0,
+      "name": "뮤턴트 쥐",
+      "useSkillList": {
+        "0": "마구물어뜯기"
+      }
+    },
+    "boss2": {
+      "adef": 15,
+      "ar": 13.5,
+      "as": 883,
+      "atk": 0,
+      "av": 17,
+      "cd": 153,
+      "cr": 7,
+      "def": 31,
+      "exp": 239200,
+      "gold": 26000,
+      "hp": 20040,
+      "level": 2,
+      "matk": 112.8,
+      "name": "마더 슬라임",
+      "useSkillList": {
+        "0": "라이트닝볼트",
+        "1": "아이스대거",
+        "2": "파이어볼트"
+      }
+    },
+    "boss3": {
+      "adef": 48,
+      "ar": 14,
+      "as": 877,
+      "atk": 238.79999999999998,
+      "av": 25,
+      "cd": 156,
+      "cr": 9,
+      "def": 134,
+      "exp": 578199.9999999999,
+      "gold": 63000,
+      "hp": 45720,
+      "level": 3,
+      "matk": 0,
+      "name": "슬라임 킹",
+      "useSkillList": {
+        "0": "스매시"
+      }
+    },
+    "boss4": {
+      "adef": 42,
+      "ar": 22,
+      "as": 870,
+      "atk": 564.72,
+      "av": 34,
+      "cd": 159,
+      "cr": 12,
+      "def": 132,
+      "exp": 768400,
+      "gold": 84000,
+      "hp": 87880,
+      "level": 4,
+      "matk": 0,
+      "name": "백랑",
+      "useSkillList": {
+        "0": "마구물어뜯기"
+      }
+    },
+    "boss5": {
+      "adef": 75,
+      "ar": 34,
+      "as": 863,
+      "atk": 728.4,
+      "av": 69,
+      "cd": 162,
+      "cr": 15,
+      "def": 250,
+      "exp": 1173919.9999999998,
+      "gold": 129000,
+      "hp": 154240,
+      "level": 5,
+      "matk": 0,
+      "name": "랫맨 대전사",
+      "useSkillList": {
+        "0": "가르기"
+      }
+    },
+    "boss6": {
+      "adef": 126,
+      "ar": 54,
+      "as": 855,
+      "atk": 1167.6,
+      "av": 58,
+      "cd": 166,
+      "cr": 19,
+      "def": 461,
+      "exp": 1698000,
+      "gold": 158000,
+      "hp": 512400,
+      "level": 6,
+      "matk": 0,
+      "name": "폭군 허크",
+      "useSkillList": {
+        "0": "무거운돌진"
+      }
+    },
+    "boss7": {
+      "adef": 213,
+      "ar": 85,
+      "as": 845,
+      "atk": 2174.4,
+      "av": 73,
+      "cd": 338,
+      "cr": 48,
+      "def": 843,
+      "exp": 2841000,
+      "gold": 345000,
+      "hp": 410180,
+      "level": 7,
+      "matk": 0,
+      "name": "홉고블린 전사 톨킨",
+      "useSkillList": {
+        "0": "스매시",
+        "1": "가르기"
+      }
+    },
+    "boss8": {
+      "adef": 360,
+      "ar": 138,
+      "as": 834,
+      "atk": 4131,
+      "av": 178,
+      "cd": 173,
+      "cr": 31,
+      "def": 2295,
+      "exp": 9828000,
+      "gold": 466000,
+      "hp": 1280000,
+      "level": 8,
+      "matk": 0,
+      "name": "자이언트 고블린",
+      "useSkillList": {
+        "0": "강타"
+      }
+    },
+    "boss9": {
+      "adef": 2163,
+      "ar": 270,
+      "as": 822,
+      "atk": 9884.159999999998,
+      "av": 221,
+      "cd": 213.6,
+      "cr": 48,
+      "def": 3320.4,
+      "exp": 11507000,
+      "gold": 895000,
+      "hp": 2939400,
+      "level": 9,
+      "matk": 0,
+      "name": "오크 지도자 가름",
+      "useSkillList": {
+        "0": "섬광"
+      }
+    }
+  },
+  "job2": {
+    "a1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "짐승과도 같은 힘과 야수성을 가지고 있다.",
+      "etc": true,
+      "grade": 1,
+      "name": "야만인",
+      "req": {
+        "str": 20
+      },
+      "skill_list": {
+        "0": "야수성",
+        "1": "가르기"
+      }
+    },
+    "a2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "특별한 기술은 없지만 충분히 강하다.",
+      "etc": false,
+      "grade": 2,
+      "name": "야만전사",
+      "req": {
+        "job_a1": 1200,
+        "job_ac1": 1200,
+        "str": 120
+      },
+      "skill_list": "광폭화"
+    },
+    "abomination": {
+      "completedExp": 80000,
+      "cost": 60000,
+      "desc": "단순한 살덩이가 전투에 적합한 형태로 모양을 갖추기 시작했다.",
+      "etc": false,
+      "grade": 3,
+      "name": "어보미네이션",
+      "req": {
+        "con": 260,
+        "deathCnt": 180,
+        "job_c2": 20000
+      },
+      "skill_list": {
+        "0": "기괴한재구축",
+        "1": "재생"
+      }
+    },
+    "ac1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "강인한 힘과 튼튼한 신체로 전투를 이어간다.",
+      "etc": true,
+      "grade": 1,
+      "name": "하급 전사",
+      "req": {
+        "con": 5,
+        "str": 10
+      },
+      "skill_list": {
+        "0": "체력단련",
+        "1": "강타"
+      }
+    },
+    "ac2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "더욱 강인한 힘과 신체로 안정적으로 적을 상대한다.",
+      "etc": true,
+      "grade": 2,
+      "name": "전사",
+      "req": {
+        "con": 40,
+        "job_ac1": 1200,
+        "str": 80
+      },
+      "skill_list": {
+        "0": "체력단련2",
+        "1": "스매시"
+      }
+    },
+    "ad1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "검술을 이용해 빠르게 상대를 제압하는 검사.",
+      "etc": true,
+      "grade": 1,
+      "name": "풋내기 검사",
+      "req": {
+        "dex": 5,
+        "str": 10
+      },
+      "skill_list": {
+        "0": "초급검술",
+        "1": "베기"
+      }
+    },
+    "ad2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "더욱 빠르고 정확한 검술로 적을 상대한다.",
+      "etc": true,
+      "grade": 2,
+      "name": "검사",
+      "req": {
+        "dex": 40,
+        "job_ad1": 1200,
+        "str": 80
+      },
+      "skill_list": {
+        "0": "중급검술",
+        "1": "일도양단"
+      }
+    },
+    "adi1": {
+      "completedExp": 5000,
+      "cost": 5000,
+      "desc": "검술과 마법을 함께 익혀 아직은 둘다 미숙하다.",
+      "etc": true,
+      "grade": 1,
+      "name": "어설픈 마검사",
+      "req": {
+        "int": 30,
+        "job_ad1": 1200,
+        "job_i1": 1200,
+        "str": 30
+      },
+      "skill_list": "인챈트매직"
+    },
+    "ads1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "흔히 볼 수 있는 산적 졸개.",
+      "etc": true,
+      "grade": 1,
+      "name": "산적 졸개",
+      "req": {
+        "con": 10,
+        "dex": 10,
+        "str": 10
+      },
+      "skill_list": {
+        "0": "마구잡이",
+        "1": "산사나이"
+      }
+    },
+    "ads2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "졸개 수준을 벗어난 산적. 온갖 비열한 방식을 이용한다.",
+      "etc": false,
+      "grade": 2,
+      "name": "산적",
+      "req": {
+        "con": 20,
+        "dex": 20,
+        "job_ads1": 1200,
+        "str": 20
+      },
+      "skill_list": {
+        "0": "급소공격",
+        "1": "독바르기"
+      }
+    },
+    "ads3": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "검술을 어느정도 익힌 뒤 산적이 되어 높은 계급이 되었다.",
+      "etc": false,
+      "grade": 3,
+      "name": "산적 검사",
+      "req": {
+        "con": 60,
+        "dex": 60,
+        "job_ad2": 20000,
+        "job_ads2": 20000,
+        "spd": 60,
+        "str": 60
+      },
+      "skill_list": {
+        "0": "무자비",
+        "1": "연속베기"
+      }
+    },
+    "ads3d": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "산적들중 가장 많은 비율을 차지하고 있다.",
+      "etc": false,
+      "grade": 3,
+      "name": "산적 궁수",
+      "req": {
+        "con": 60,
+        "dex": 60,
+        "job_ads2": 20000,
+        "job_da2": 20000,
+        "spd": 60,
+        "str": 60
+      },
+      "skill_list": {
+        "0": "독화살",
+        "1": "게릴라"
+      }
+    },
+    "ads3i": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "흔히 볼 수 없지만 마법을 익힌 뒤 산적이 되어 특별하다.",
+      "etc": false,
+      "grade": 3,
+      "name": "산적 마법사",
+      "req": {
+        "con": 60,
+        "dex": 60,
+        "int": 60,
+        "job_ads2": 20000,
+        "job_i2": 20000,
+        "spd": 60
+      },
+      "skill_list": {
+        "0": "금지마법",
+        "1": "화염구"
+      }
+    },
+    "alchemist": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "다양한 화학작용을 연구한다.",
+      "etc": false,
+      "grade": 2,
+      "name": "연금술사",
+      "req": {
+        "job_i2": 20000,
+        "job_s2": 20000
+      },
+      "skill_list": {
+        "0": "연금술",
+        "1": "폭약던지기"
+      }
+    },
+    "assassin": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "은밀하고 빠르게 움직여 상대를 암살한다.",
+      "etc": false,
+      "grade": 3,
+      "name": "암살자",
+      "req": {
+        "dex": 220,
+        "job_ds2": 20000,
+        "spd": 40
+      },
+      "skill_list": {
+        "0": "암살",
+        "1": "맹독바르기"
+      }
+    },
+    "b1": {
+      "completedExp": 20000,
+      "cost": 1200,
+      "desc": "어떤 증상이 발현한 몬스터의 신체를 섭취하자 몸에서 변화가 생겼다.",
+      "etc": false,
+      "grade": 1,
+      "name": "혈귀",
+      "req": {
+        "eat_mon10": 2000
+      },
+      "skill_list": "흡혈"
+    },
+    "berserker": {
+      "completedExp": 80000,
+      "cost": 60000,
+      "desc": "강력한 공격을 끊임없이 이어나갈 수 있다.",
+      "etc": true,
+      "grade": 3,
+      "name": "광전사",
+      "req": {
+        "job_a2": 20000,
+        "str": 260
+      },
+      "skill_list": {
+        "0": "버서커",
+        "1": "참수"
+      }
+    },
+    "c1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "많은 죽음으로 인해 신체가 너덜너덜해졌다.",
+      "etc": true,
+      "grade": 1,
+      "name": "누더기",
+      "req": {
+        "con": 20,
+        "deathCnt": 20
+      },
+      "skill_list": {
+        "0": "질긴피부",
+        "1": "무거운돌진"
+      }
+    },
+    "c2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "기워진 살덩이가 부풀어 기괴해졌다.",
+      "etc": true,
+      "grade": 2,
+      "name": "기괴 살덩이",
+      "req": {
+        "con": 120,
+        "deathCnt": 50,
+        "job_c1": 1200
+      },
+      "skill_list": {
+        "0": "혐오스러운거구",
+        "1": "포식"
+      }
+    },
+    "ci1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "신을 섬기는 직업을 택한 견습사제",
+      "etc": true,
+      "grade": 1,
+      "name": "견습 사제",
+      "req": {
+        "con": 10,
+        "int": 5
+      },
+      "skill_list": {
+        "0": "신앙심",
+        "1": "라이트힐"
+      }
+    },
+    "ci2": {
+      "completedExp": 30000,
+      "cost": 20000,
+      "desc": "견습사제를 벗어난 수습사제.",
+      "etc": true,
+      "grade": 2,
+      "name": "수습 사제",
+      "req": {
+        "con": 50,
+        "int": 35,
+        "job_ci1": 1200
+      },
+      "skill_list": {
+        "0": "신성력",
+        "1": "힐"
+      }
+    },
+    "da1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "활을 이용해 원거리에서 상대를 제압한다.",
+      "etc": true,
+      "grade": 1,
+      "name": "견습 궁수",
+      "req": {
+        "dex": 10,
+        "str": 5
+      },
+      "skill_list": {
+        "0": "집중",
+        "1": "정조준"
+      }
+    },
+    "da2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "활을 이용해 원거리에서 능숙하게 상대를 제압한다.",
+      "etc": true,
+      "grade": 2,
+      "name": "궁수",
+      "req": {
+        "dex": 80,
+        "job_da1": 1200,
+        "str": 40
+      },
+      "skill_list": {
+        "0": "저격",
+        "1": "독수리의눈"
+      }
+    },
+    "dc1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "자신의 신체를 이용하여 싸우는 격투가",
+      "etc": true,
+      "grade": 1,
+      "name": "삼류 격투가",
+      "req": {
+        "con": 10,
+        "dex": 10
+      },
+      "skill_list": {
+        "0": "정권",
+        "1": "투지"
+      }
+    },
+    "dc2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "신체를 단련하고 또 단련하여 더욱 강건하고 날렵하다.",
+      "etc": true,
+      "grade": 2,
+      "name": "이류 격투가",
+      "req": {
+        "con": 80,
+        "dex": 40,
+        "job_dc1": 1200,
+        "spd": 20
+      },
+      "skill_list": {
+        "0": "돌려차기",
+        "1": "단련"
+      }
+    },
+    "ds1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "재빠른 몸놀림으로 상대방을 유린한다.",
+      "etc": true,
+      "grade": 1,
+      "name": "풋내기 도적",
+      "req": {
+        "dex": 10,
+        "spd": 5
+      },
+      "skill_list": {
+        "0": "기민한발걸음",
+        "1": "더블스텝"
+      }
+    },
+    "ds2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "단검과 독을 사용하여 상대를 유린한다.",
+      "etc": true,
+      "grade": 2,
+      "name": "도적",
+      "req": {
+        "dex": 80,
+        "job_ds1": 1200,
+        "spd": 40
+      },
+      "skill_list": {
+        "0": "독바르기",
+        "1": "섬광"
+      }
+    },
+    "fighter_1st": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "신체 자체가 무기가 되었다.",
+      "etc": false,
+      "grade": 3,
+      "name": "일류 격투가",
+      "req": {
+        "con": 180,
+        "dex": 40,
+        "job_dc2": 20000,
+        "spd": 40
+      },
+      "skill_list": {
+        "0": "다련권",
+        "1": "투신"
+      }
+    },
+    "fire_mage": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "화염마법에 정진하여 위험하면서도 강력한 화염마법을 구사한다.",
+      "etc": false,
+      "grade": 3,
+      "name": "화염술사",
+      "req": {
+        "con": 40,
+        "int": 220,
+        "job_i2": 20000,
+        "job_i2c": 20000
+      },
+      "skill_list": {
+        "0": "파이어볼",
+        "1": "중급화염마법"
+      }
+    },
+    "forest_sage": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": {
+        "0": "자연의 힘을 이용하여 공격하거나",
+        "1": "스스로의 모습을 바꿔 싸운다."
+      },
+      "etc": false,
+      "grade": 3,
+      "name": "숲의현자",
+      "req": {
+        "con": 80,
+        "int": 160,
+        "job_ic2": 20000
+      },
+      "skill_list": {
+        "0": "애니멀폼울프",
+        "1": "돌개바람"
+      }
+    },
+    "grand_warrior": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "수많은 전투로 노련해진 전사",
+      "etc": false,
+      "grade": 3,
+      "name": "대전사",
+      "req": {
+        "con": 80,
+        "job_ac2": 20000,
+        "str": 180
+      },
+      "skill_list": {
+        "0": "전투술",
+        "1": "참격"
+      }
+    },
+    "hm1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "눈물나는 노력의 결정체",
+      "etc": true,
+      "grade": 0,
+      "name": "전설의 수련생",
+      "req": {
+        "hunt_mon1": 10000
+      },
+      "skill_list": "수련장고인물"
+    },
+    "hm1_r": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "노력의 결정체",
+      "etc": true,
+      "grade": 0,
+      "name": "수련생",
+      "req": {
+        "hunt_mon1": 2000,
+        "hunt_mon2": 2000,
+        "hunt_mon3": 2000,
+        "hunt_mon4": 2000,
+        "hunt_mon5": 2000
+      },
+      "skill_list": "근성",
+      "sort_num": 10000
+    },
+    "hm2": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "쥐를 정말 많이 잡았다.",
+      "etc": true,
+      "grade": 0,
+      "name": "쥐덫 설치자",
+      "req": {
+        "hunt_mon10": 2000,
+        "hunt_mon6": 2000,
+        "hunt_mon7": 2000,
+        "hunt_mon8": 2200,
+        "hunt_mon9": 2000
+      },
+      "skill_list": "쥐",
+      "sort_num": 10001
+    },
+    "hm3": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "슬라임이 득실득실한 하수도를 청소했다.",
+      "etc": true,
+      "grade": 0,
+      "name": "슬라임 청소부",
+      "req": {
+        "hunt_mon11": 2000,
+        "hunt_mon12": 2000,
+        "hunt_mon13": 2000,
+        "hunt_mon14": 2700,
+        "hunt_mon15": 2000
+      },
+      "skill_list": "슬라임",
+      "sort_num": 10002
+    },
+    "hm4": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "전문적인 늑대 사냥꾼",
+      "etc": true,
+      "grade": 0,
+      "name": "늑대 사냥꾼",
+      "req": {
+        "hunt_mon16": 2000,
+        "hunt_mon17": 2200,
+        "hunt_mon18": 2000,
+        "hunt_mon19": 2000,
+        "hunt_mon20": 2000
+      },
+      "skill_list": "늑대",
+      "sort_num": 10003
+    },
+    "hm5": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "인정사정없이 랫맨들을 죽였다.",
+      "etc": true,
+      "grade": 0,
+      "name": "랫맨 학살자",
+      "req": {
+        "hunt_mon21": 2000,
+        "hunt_mon22": 2000,
+        "hunt_mon23": 2000,
+        "hunt_mon24": 2120,
+        "hunt_mon25": 2000
+      },
+      "skill_list": "랫맨",
+      "sort_num": 10004
+    },
+    "hm6": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "새끼곰도 인정사정 없이 사냥한다.",
+      "etc": true,
+      "grade": 0,
+      "name": "곰 사냥꾼",
+      "req": {
+        "hunt_mon26": 2250,
+        "hunt_mon27": 2000,
+        "hunt_mon28": 2000,
+        "hunt_mon29": 2000,
+        "hunt_mon30": 2000
+      },
+      "skill_list": "곰",
+      "sort_num": 10005
+    },
+    "hm7": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "고블린들이 당신을 두려워합니다.",
+      "etc": true,
+      "grade": 0,
+      "name": "고블린 헌터",
+      "req": {
+        "hunt_mon31": 2000,
+        "hunt_mon32": 2000,
+        "hunt_mon33": 2000,
+        "hunt_mon34": 2100,
+        "hunt_mon35": 2000
+      },
+      "skill_list": "고블린",
+      "sort_num": 10006
+    },
+    "hm8": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "오크들이 당신을 두려워합니다.",
+      "etc": true,
+      "grade": 0,
+      "name": "오크 학살자",
+      "req": {
+        "hunt_mon36": 2000,
+        "hunt_mon37": 2000,
+        "hunt_mon38": 2000,
+        "hunt_mon39": 2000,
+        "hunt_mon40": 3000
+      },
+      "skill_list": "오크",
+      "sort_num": 10007
+    },
+    "hm9": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "사이클롭스들이 당신을 두려워합니다.",
+      "etc": true,
+      "grade": 0,
+      "name": "사이클롭스 살해자",
+      "req": {
+        "hunt_mon41": 2100,
+        "hunt_mon42": 2000,
+        "hunt_mon43": 2000,
+        "hunt_mon44": 2000,
+        "hunt_mon45": 2000
+      },
+      "skill_list": "사이클롭스",
+      "sort_num": 10008
+    },
+    "holy_knight": {
+      "completedExp": 80000,
+      "cost": 60000,
+      "desc": "기사의 견고한 방어력에 사제의 치유력까지 지니게 되었다.",
+      "etc": false,
+      "grade": 3,
+      "name": "성기사",
+      "req": {
+        "job_ci2": 30000,
+        "job_knight": 20000
+      },
+      "skill_list": {
+        "0": "생명의찬가",
+        "1": "성스러운방패"
+      }
+    },
+    "i1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "마법에 입문한 초급 마법사",
+      "etc": true,
+      "grade": 1,
+      "name": "초급 마법사",
+      "req": {
+        "int": 20
+      },
+      "skill_list": {
+        "0": "마법구",
+        "1": "마력집중"
+      }
+    },
+    "i2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "마법의 길을 정진하기 시작한 마법사.",
+      "etc": true,
+      "grade": 2,
+      "name": "마법사",
+      "req": {
+        "int": 80,
+        "job_i1": 1200
+      },
+      "skill_list": {
+        "0": "마나스톰",
+        "1": "정밀시전"
+      }
+    },
+    "i2c": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "화염마법에 입문한 마법사.",
+      "etc": true,
+      "grade": 2,
+      "name": "초급 화염술사",
+      "req": {
+        "con": 40,
+        "int": 60,
+        "job_i1": 1200,
+        "job_i2": 10000
+      },
+      "skill_list": {
+        "0": "파이어볼트",
+        "1": "화염마법"
+      }
+    },
+    "i2d": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "번개마법에 입문한 마법사.",
+      "etc": true,
+      "grade": 2,
+      "name": "초급 번개술사",
+      "req": {
+        "dex": 40,
+        "int": 60,
+        "job_i1": 1200,
+        "job_i2": 10000
+      },
+      "skill_list": {
+        "0": "라이트닝볼트",
+        "1": "전격마법"
+      }
+    },
+    "i2s": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "빙계마법에 입문한 마법사.",
+      "etc": true,
+      "grade": 2,
+      "name": "초급 빙결술사",
+      "req": {
+        "int": 60,
+        "job_i1": 1200,
+        "job_i2": 10000,
+        "spd": 40
+      },
+      "skill_list": {
+        "0": "아이스대거",
+        "1": "빙계마법"
+      }
+    },
+    "ic1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "자연의 힘을 다루는 주술사",
+      "etc": true,
+      "grade": 1,
+      "name": "초급 드루이드",
+      "req": {
+        "con": 5,
+        "int": 10
+      },
+      "skill_list": {
+        "0": "숲의아이",
+        "1": "마법구"
+      }
+    },
+    "ic2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "자연속에서 동식물과 함께 살아가는 주술사",
+      "etc": true,
+      "grade": 2,
+      "name": "드루이드",
+      "req": {
+        "con": 40,
+        "int": 60,
+        "job_ads1": 1200,
+        "job_ic1": 1200
+      },
+      "skill_list": {
+        "0": "올빼미의지혜",
+        "1": "자연의격노"
+      }
+    },
+    "ice_mage": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "빙결마법에 정진하여 날카롭고 빠른 빙결마법을 구사한다.",
+      "etc": false,
+      "grade": 3,
+      "name": "빙결술사",
+      "req": {
+        "int": 220,
+        "job_i2": 20000,
+        "job_i2s": 20000,
+        "spd": 40
+      },
+      "skill_list": {
+        "0": "프로즌블래스트",
+        "1": "중급빙결마법"
+      }
+    },
+    "knight": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "견고한 방어력으로 상대의 공격을 받아낸다.",
+      "etc": false,
+      "grade": 2,
+      "name": "기사",
+      "req": {
+        "lastADef": 15,
+        "lastDef": 400,
+        "str": 120
+      },
+      "skill_list": {
+        "0": "철벽",
+        "1": "기사도"
+      }
+    },
+    "l1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "도박판을 전전하며 살아가는 삼류 도박사.",
+      "etc": true,
+      "grade": 1,
+      "name": "삼류 도박사",
+      "req": {
+        "luk": 20
+      },
+      "skill_list": {
+        "0": "초심자의행운",
+        "1": "카드섞기"
+      }
+    },
+    "l2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "도박판이 있는곳은 어디든 간다.",
+      "etc": true,
+      "grade": 2,
+      "name": "도박사",
+      "req": {
+        "dex": 20,
+        "job_l1": 1200,
+        "luk": 50
+      },
+      "skill_list": {
+        "0": "배팅",
+        "1": "손목자르기"
+      }
+    },
+    "lightning_mage": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "뇌전마법에 정진하여 불안정하지만 강력한 뇌전마법을 구사한다.",
+      "etc": false,
+      "grade": 3,
+      "name": "뇌전술사",
+      "req": {
+        "dex": 40,
+        "int": 220,
+        "job_i2": 20000,
+        "job_i2d": 20000
+      },
+      "skill_list": {
+        "0": "라이트닝",
+        "1": "중급뇌전마법"
+      }
+    },
+    "mage": {
+      "completedExp": 100000,
+      "cost": 60000,
+      "desc": "다양한 마법에 통달하여 강력한 마법을 구사한다.",
+      "etc": false,
+      "grade": 3,
+      "name": "마도사",
+      "req": {
+        "int": 300,
+        "job_i2": 20000,
+        "job_i2c": 20000,
+        "job_i2d": 20000,
+        "job_i2s": 20000
+      },
+      "skill_list": {
+        "0": "마나써클",
+        "1": "마나스트라이크"
+      }
+    },
+    "ninja_1st": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "더욱 다양한 임무경험으로 다양한 무기술과 인술을 사용한다.",
+      "etc": false,
+      "grade": 3,
+      "name": "상급닌자",
+      "req": {
+        "job_s2": 20000,
+        "lastAv": 500,
+        "spd": 260
+      },
+      "skill_list": {
+        "0": "수리검난무",
+        "1": "분신술"
+      }
+    },
+    "priests": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "신성력을 기반으로 신체를 보호하고 상대를 멸한다.",
+      "etc": false,
+      "grade": 3,
+      "name": "사제",
+      "req": {
+        "con": 100,
+        "int": 135,
+        "job_ci2": 20000
+      },
+      "skill_list": {
+        "0": "생명의물결",
+        "1": "블래스"
+      }
+    },
+    "s1": {
+      "completedExp": 1200,
+      "cost": 1200,
+      "desc": "은밀하게 임무를 수행하는 하급닌자",
+      "etc": true,
+      "grade": 1,
+      "name": "하급 닌자",
+      "req": {
+        "spd": 20
+      },
+      "skill_list": {
+        "0": "은신",
+        "1": "수리검투척"
+      }
+    },
+    "s2": {
+      "completedExp": 20000,
+      "cost": 20000,
+      "desc": "많은 임무경험으로 숙련된 닌자",
+      "etc": false,
+      "grade": 2,
+      "name": "중급 닌자",
+      "req": {
+        "job_s1": 1200,
+        "lastAv": 200,
+        "spd": 80
+      },
+      "skill_list": {
+        "0": "그림자베기",
+        "1": "흐리기"
+      }
+    },
+    "sniper": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "기척을 숨기고 상대를 저격한다.",
+      "etc": false,
+      "grade": 3,
+      "name": "저격수",
+      "req": {
+        "dex": 220,
+        "job_da2": 20000,
+        "str": 40
+      },
+      "skill_list": {
+        "0": "관통",
+        "1": "저격수"
+      }
+    },
+    "sword_master": {
+      "completedExp": 60000,
+      "cost": 60000,
+      "desc": "신기에 가까운 검술을 구사한다.",
+      "etc": false,
+      "grade": 3,
+      "name": "신검",
+      "req": {
+        "dex": 80,
+        "job_ad2": 20000,
+        "str": 180
+      },
+      "skill_list": {
+        "0": "신검합일",
+        "1": "검무"
+      }
+    }
+  },
+  "monster2": {
+    "mon1": {
+      "ar": 0.1,
+      "av": 0.1,
+      "cd": 0.1,
+      "cr": 0.1,
+      "def": 0.1,
+      "exp": 1.05,
+      "gold": 1.155,
+      "level": 1,
+      "map": "훈련소",
+      "name": "허수아비"
+    },
+    "mon10": {
+      "ar": 1.5,
+      "exp": 1.15,
+      "gold": 1.2650000000000001,
+      "level": 10,
+      "name": "폭혈쥐"
+    },
+    "mon11": {
+      "adef": 2,
+      "def": 2,
+      "exp": 1.4,
+      "gold": 1.54,
+      "level": 11,
+      "map": "더러운하수구",
+      "name": "허기진 슬라임"
+    },
+    "mon12": {
+      "adef": 2,
+      "def": 2,
+      "exp": 1.4,
+      "gold": 1.54,
+      "level": 12,
+      "name": "길잃은 슬라임"
+    },
+    "mon13": {
+      "adef": 2,
+      "def": 2,
+      "exp": 1.4,
+      "gold": 1.54,
+      "level": 13,
+      "name": "소화중인 슬라임"
+    },
+    "mon14": {
+      "adef": 2,
+      "def": 2,
+      "exp": 1.4,
+      "gold": 1.54,
+      "level": 14,
+      "name": "배부른 슬라임"
+    },
+    "mon15": {
+      "adef": 2,
+      "def": 2,
+      "exp": 1.4,
+      "gold": 1.54,
+      "level": 15,
+      "name": "크림슨 슬라임"
+    },
+    "mon16": {
+      "atk": 1.3,
+      "exp": 1.13,
+      "gold": 1.2429999999999999,
+      "level": 16,
+      "map": "초원",
+      "name": "굶주린 늑대"
+    },
+    "mon17": {
+      "atk": 1.3,
+      "exp": 1.13,
+      "gold": 1.2429999999999999,
+      "level": 17,
+      "name": "회색 늑대"
+    },
+    "mon18": {
+      "atk": 1.3,
+      "exp": 1.13,
+      "gold": 1.2429999999999999,
+      "level": 18,
+      "name": "다이어울프"
+    },
+    "mon19": {
+      "atk": 1.3,
+      "exp": 1.13,
+      "gold": 1.2429999999999999,
+      "level": 19,
+      "name": "적랑"
+    },
+    "mon2": {
+      "exp": 1,
+      "gold": 1.1,
+      "level": 2,
+      "name": "나무인형"
+    },
+    "mon20": {
+      "atk": 1.3,
+      "exp": 1.13,
+      "gold": 1.2429999999999999,
+      "level": 20,
+      "name": "흑랑"
+    },
+    "mon21": {
+      "av": 1.6,
+      "exp": 1.16,
+      "gold": 1.276,
+      "level": 21,
+      "map": "랫맨마을",
+      "name": "랫맨 좀도둑"
+    },
+    "mon22": {
+      "av": 1.6,
+      "exp": 1.16,
+      "gold": 1.276,
+      "level": 22,
+      "name": "랫맨 폭력배"
+    },
+    "mon23": {
+      "av": 1.6,
+      "exp": 1.16,
+      "gold": 1.276,
+      "level": 23,
+      "name": "랫맨 검투사"
+    },
+    "mon24": {
+      "av": 1.6,
+      "exp": 1.16,
+      "gold": 1.276,
+      "level": 24,
+      "name": "랫맨 명사수"
+    },
+    "mon25": {
+      "av": 1.6,
+      "exp": 1.16,
+      "gold": 1.276,
+      "level": 25,
+      "name": "랫맨 암살자"
+    },
+    "mon26": {
+      "exp": 1.2,
+      "gold": 1.12,
+      "hp": 2,
+      "level": 26,
+      "map": "숲",
+      "name": "새끼 곰"
+    },
+    "mon27": {
+      "exp": 1.2,
+      "gold": 1.12,
+      "hp": 2,
+      "level": 27,
+      "name": "갈색곰"
+    },
+    "mon28": {
+      "exp": 1.2,
+      "gold": 1.12,
+      "hp": 2,
+      "level": 28,
+      "name": "회색곰"
+    },
+    "mon29": {
+      "exp": 1.2,
+      "gold": 1.12,
+      "hp": 2,
+      "level": 29,
+      "name": "그리즐리 베어"
+    },
+    "mon3": {
+      "exp": 1,
+      "gold": 1.1,
+      "level": 3,
+      "name": "수련용 나무인형"
+    },
+    "mon30": {
+      "exp": 1.2,
+      "gold": 1.12,
+      "hp": 2,
+      "level": 30,
+      "name": "반달곰"
+    },
+    "mon31": {
+      "as": 1.52,
+      "atk": 1.2,
+      "cd": 2,
+      "cr": 2,
+      "exp": 1.5,
+      "gold": 1.822,
+      "level": 31,
+      "map": "고블린 야영지",
+      "name": "고블린"
+    },
+    "mon32": {
+      "as": 1.52,
+      "atk": 1.2,
+      "cd": 2,
+      "cr": 2,
+      "exp": 1.5,
+      "gold": 1.822,
+      "level": 32,
+      "name": "고블린 약탈자"
+    },
+    "mon33": {
+      "as": 1.52,
+      "atk": 1.2,
+      "cd": 2,
+      "cr": 2,
+      "exp": 1.5,
+      "gold": 1.822,
+      "level": 33,
+      "name": "고블린 검사"
+    },
+    "mon34": {
+      "as": 1.52,
+      "atk": 1.2,
+      "cd": 2,
+      "cr": 2,
+      "exp": 1.5,
+      "gold": 1.822,
+      "level": 34,
+      "name": "고블린 궁수"
+    },
+    "mon35": {
+      "as": 1.52,
+      "atk": 1.2,
+      "cd": 2,
+      "cr": 2,
+      "exp": 1.5,
+      "gold": 1.822,
+      "level": 35,
+      "name": "홉고블린"
+    },
+    "mon36": {
+      "atk": 1.5,
+      "av": 2,
+      "def": 1.5,
+      "exp": 4,
+      "gold": 1.9,
+      "hp": 2,
+      "level": 36,
+      "map": "오크 야영지",
+      "name": "오크 벌목꾼"
+    },
+    "mon37": {
+      "atk": 1.5,
+      "av": 2,
+      "def": 1.5,
+      "exp": 4,
+      "gold": 1.9,
+      "hp": 2,
+      "level": 37,
+      "name": "오크 일꾼"
+    },
+    "mon38": {
+      "atk": 1.5,
+      "av": 2,
+      "def": 1.5,
+      "exp": 4,
+      "gold": 1.9,
+      "hp": 2,
+      "level": 38,
+      "name": "오크 전사"
+    },
+    "mon39": {
+      "atk": 1.5,
+      "av": 2,
+      "def": 1.5,
+      "exp": 4,
+      "gold": 1.9,
+      "hp": 2,
+      "level": 39,
+      "name": "오크 투사"
+    },
+    "mon4": {
+      "exp": 1,
+      "gold": 1.1,
+      "level": 4,
+      "name": "훈련용 나무인형"
+    },
+    "mon40": {
+      "atk": 1.5,
+      "av": 2,
+      "def": 1.5,
+      "exp": 4,
+      "gold": 1.9,
+      "hp": 2,
+      "level": 40,
+      "name": "전쟁영웅 아쉬크"
+    },
+    "mon41": {
+      "adef": 3,
+      "atk": 2,
+      "av": 2,
+      "exp": 3.7,
+      "gold": 2.07,
+      "hp": 2,
+      "level": 41,
+      "map": "절벽",
+      "name": "사이클롭스"
+    },
+    "mon42": {
+      "adef": 3,
+      "atk": 2,
+      "av": 2,
+      "exp": 3.7,
+      "gold": 2.07,
+      "hp": 2,
+      "level": 42,
+      "name": "사이클롭스 산적"
+    },
+    "mon43": {
+      "adef": 3,
+      "atk": 2,
+      "av": 2,
+      "exp": 3.7,
+      "gold": 2.07,
+      "hp": 2,
+      "level": 43,
+      "name": "사이클롭스 전사"
+    },
+    "mon44": {
+      "adef": 3,
+      "atk": 2,
+      "av": 2,
+      "exp": 3.7,
+      "gold": 2.07,
+      "hp": 2,
+      "level": 44,
+      "name": "사이클롭스 변종"
+    },
+    "mon45": {
+      "adef": 3.5,
+      "ar": 1.2,
+      "as": 1.2,
+      "atk": 2.4,
+      "av": 2,
+      "cd": 1.2,
+      "cr": 1.2,
+      "def": 1.2,
+      "exp": 3.7,
+      "gold": 2.88,
+      "hp": 3,
+      "level": 45,
+      "matk": 1.2,
+      "name": "학살자 데미안"
+    },
+    "mon46": {
+      "def": 1.2,
+      "exp": 3.5,
+      "gold": 3.5,
+      "level": 46,
+      "name": "리자드맨",
+      "useSkillList": {
+        "0": "독저항1"
+      }
+    },
+    "mon47": {
+      "def": 1.5,
+      "exp": 3.5,
+      "gold": 3.5,
+      "hp": 2,
+      "level": 47,
+      "name": "리자드맨 창병",
+      "useSkillList": {
+        "0": "독저항1"
+      }
+    },
+    "mon48": {
+      "def": 2,
+      "exp": 3.5,
+      "gold": 3.5,
+      "hp": 2.4,
+      "level": 48,
+      "name": "리자드맨 전사",
+      "useSkillList": {
+        "0": "독저항1"
+      }
+    },
+    "mon49": {
+      "def": 2,
+      "exp": 3.5,
+      "gold": 3.5,
+      "hp": 2.8,
+      "level": 49,
+      "name": "리자드맨 상급 전사",
+      "useSkillList": {
+        "0": "독저항1"
+      }
+    },
+    "mon5": {
+      "exp": 1,
+      "gold": 1.1,
+      "level": 5,
+      "name": "숙련자용 나무인형"
+    },
+    "mon50": {
+      "def": 2,
+      "exp": 3.5,
+      "gold": 3.5,
+      "hp": 3,
+      "level": 50,
+      "name": "명예로운 자 후아틀",
+      "useSkillList": {
+        "0": "독저항1"
+      }
+    },
+    "mon51": {
+      "as": 3,
+      "av": 2,
+      "exp": 3.2,
+      "gold": 3.2,
+      "level": 51,
+      "name": "라미아 창병",
+      "useSkillList": {
+        "0": "독저항2",
+        "1": "독바르기"
+      }
+    },
+    "mon52": {
+      "as": 3,
+      "av": 2,
+      "exp": 3.2,
+      "gold": 3.2,
+      "level": 52,
+      "name": "라미아 주술사",
+      "useSkillList": {
+        "0": "독저항2",
+        "1": "독바르기"
+      }
+    },
+    "mon53": {
+      "as": 3,
+      "av": 2,
+      "exp": 3.2,
+      "gold": 3.2,
+      "level": 53,
+      "name": "레드 라미아 창병",
+      "useSkillList": {
+        "0": "독저항2",
+        "1": "독바르기"
+      }
+    },
+    "mon54": {
+      "as": 3,
+      "av": 2,
+      "exp": 3.2,
+      "gold": 3.2,
+      "level": 54,
+      "name": "레드 라미아 주술사",
+      "useSkillList": {
+        "0": "독저항2",
+        "1": "독바르기"
+      }
+    },
+    "mon55": {
+      "as": 3,
+      "av": 2,
+      "exp": 3.2,
+      "gold": 3.2,
+      "level": 55,
+      "name": "맹독의 달리아",
+      "useSkillList": {
+        "0": "독저항2",
+        "1": "독바르기"
+      }
+    },
+    "mon6": {
+      "ar": 1.5,
+      "exp": 1.15,
+      "gold": 1.2650000000000001,
+      "level": 6,
+      "map": "하수구",
+      "name": "거대쥐"
+    },
+    "mon7": {
+      "ar": 1.5,
+      "exp": 1.15,
+      "gold": 1.2650000000000001,
+      "level": 7,
+      "name": "이끼낀 거대쥐"
+    },
+    "mon8": {
+      "ar": 1.5,
+      "exp": 1.15,
+      "gold": 1.2650000000000001,
+      "level": 8,
+      "name": "오염된 거대쥐"
+    },
+    "mon9": {
+      "ar": 1.5,
+      "exp": 1.15,
+      "gold": 1.2650000000000001,
+      "level": 9,
+      "name": "흉폭한 거대쥐"
+    }
+  },
+  "skill2": {
+    "가르기": {
+      "ar_rate": 0.9,
+      "cost": 1,
+      "desc": "가로로 크게 휘두르는 공격",
+      "ignore_defense_rate": 20,
+      "name": "가르기",
+      "percent": 40,
+      "related": {
+        "0": {
+          "coefficient": 1.4,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "강타": {
+      "ar_rate": 0.9,
+      "cost": 1,
+      "desc": "혼신의 힘을 다해 상대를 공격한다.",
+      "name": "강타",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 1.2,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "검무": {
+      "ar_rate": 1.2,
+      "atk_cnt": 4,
+      "cost": 4,
+      "desc": "춤을 추는듯한 동작으로 연속으로 적을 벤다.",
+      "name": "검무",
+      "percent": 15,
+      "related": {
+        "0": {
+          "coefficient": 2.3,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "게릴라": {
+      "cost": 4,
+      "desc": {
+        "0": "적을 교란하고",
+        "1": "기습하는데 특화된 전투술"
+      },
+      "name": "게릴라",
+      "related": {
+        "0": {
+          "coefficient": "+30",
+          "related": "av"
+        },
+        "1": {
+          "coefficient": "+30",
+          "related": "ar"
+        },
+        "2": {
+          "coefficient": "+30",
+          "related": "cr"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "고블린": {
+      "cost": 0,
+      "desc": "고블린의 방어사이로 약점을 치는게 익숙해졌다",
+      "name": "사냥꾼의 지혜 - 고블린",
+      "related": {
+        "0": {
+          "coefficient": "+10",
+          "related": "cd"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "곰": {
+      "cost": 0,
+      "desc": "곰과의 수많은 싸움으로 기초체력이 올라갔다",
+      "name": "사냥꾼의 지혜 - 곰",
+      "related": {
+        "0": {
+          "coefficient": "+100",
+          "related": "hp"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "관통": {
+      "cost": 8,
+      "desc": "적의 방어력을 일부 관통하는 공격을 한다.",
+      "name": "관통",
+      "related": {
+        "0": {
+          "coefficient": 0.2,
+          "related": "piercing"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "광폭화": {
+      "cost": 3,
+      "desc": "앞뒤 가리지 않고 무자비하게 상대를 공격합니다.",
+      "name": "광폭화",
+      "related": {
+        "0": {
+          "coefficient": "+600",
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "-500",
+          "related": "hp"
+        },
+        "2": {
+          "coefficient": "-80",
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "그림자베기": {
+      "cost": 3,
+      "desc": "상대의 공격을 회피하며 빠르게 베어낸다.",
+      "ignore_defense_rate": 40,
+      "name": "그림자 베기",
+      "percent": 30,
+      "related": {
+        "0": {
+          "coefficient": 0.3,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 10,
+          "related": "lastAv"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "근성": {
+      "cost": 2,
+      "desc": "끊임없는 수련으로 신체가 강인해졌다.",
+      "name": "근성",
+      "related": {
+        "0": {
+          "coefficient": "+500",
+          "related": "hp"
+        }
+      },
+      "test": false,
+      "type": "passive",
+      "비고": "도감 직업"
+    },
+    "금지마법": {
+      "cost": 6,
+      "desc": "마법을 배울 당시 금지되어 해보지 못했던 다양한 마법을 사용한다.",
+      "name": "금지마법",
+      "related": {
+        "0": {
+          "coefficient": -0.4,
+          "related": "hp"
+        },
+        "1": {
+          "coefficient": 0.6,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "급소공격": {
+      "cost": 3,
+      "desc": "상대방의 취약한 부위를 공격합니다.",
+      "ignore_defense_rate": 80,
+      "name": "급소 공격",
+      "percent": 30,
+      "related": {
+        "0": {
+          "coefficient": 0.7,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "기괴한재구축": {
+      "cost": 7,
+      "desc": "신체가 재구축되어 생명력의 일부를 물리공격력에 추가한다.",
+      "name": "기괴한 재구축",
+      "related": {
+        "0": {
+          "coefficient": "to_hp_0.3",
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "기민한발걸음": {
+      "cost": 1,
+      "desc": "특유의 발걸음으로 적의 공격을 회피한다.",
+      "name": "기민한 발걸음",
+      "related": {
+        "0": {
+          "coefficient": "+10",
+          "related": "av"
+        },
+        "1": {
+          "coefficient": "+30",
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "기사도": {
+      "cost": 7,
+      "desc": "자신의 방어력의 일부를 물리공격력에 추가한다.",
+      "name": "기사도",
+      "related": {
+        "0": {
+          "coefficient": "to_def_1.5",
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "늑대": {
+      "cost": 0,
+      "desc": "늑대를 잡으며 무기를 더 잘 쥐는법을 알았다",
+      "name": "사냥꾼의 지혜 - 늑대",
+      "related": {
+        "0": {
+          "coefficient": "+25",
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "+25",
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "다련권": {
+      "ar_rate": 0.8,
+      "atk_cnt": 16,
+      "cost": 6,
+      "desc": "주먹이 여러개로 보일정도로 빠르게 공격한다.",
+      "ignore_defense_rate": 10,
+      "name": "다련권",
+      "percent": 10,
+      "related": {
+        "0": {
+          "coefficient": 0.7,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "단련": {
+      "cost": 3,
+      "desc": "신체를 단련하여 공격력과 방어력이 상승했다.",
+      "name": "단련",
+      "related": {
+        "0": {
+          "coefficient": "+60",
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "+30",
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "더블스텝": {
+      "ar_rate": 1.1,
+      "atk_cnt": 2,
+      "cost": 1,
+      "desc": "빠르게 접근해 두번 찌르고 빠지는 공격",
+      "ignore_defense_rate": 50,
+      "name": "더블스텝",
+      "percent": 30,
+      "related": {
+        "0": {
+          "coefficient": 0.7,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 3,
+          "related": "dex"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "독바르기": {
+      "cost": 3,
+      "desc": "무기에 독을발라 지속적인 독피해를 준다.",
+      "name": "독 바르기",
+      "related": {
+        "0": {
+          "coefficient": 0.03,
+          "related": "poison"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "독수리의눈": {
+      "cost": 3,
+      "desc": "독수리의 눈으로 상대를 추적한다.",
+      "name": "독수리의 눈",
+      "related": {
+        "0": {
+          "coefficient": "+30",
+          "related": "ar"
+        },
+        "1": {
+          "coefficient": "+5",
+          "related": "cr"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "독저항1": {
+      "cost": 0,
+      "name": "독저항1",
+      "related": {
+        "0": {
+          "coefficient": 0.6,
+          "related": "poisonResist"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "독저항2": {
+      "cost": 0,
+      "name": "독저항2",
+      "related": {
+        "0": {
+          "coefficient": 0.9,
+          "related": "poisonResist"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "독화살": {
+      "cost": 4,
+      "desc": "맹독을 바른 화살을 적에게 발사한다.",
+      "name": "독화살",
+      "percent": 30,
+      "poison": 0.1,
+      "related": {
+        "0": {
+          "coefficient": 0.9,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "돌개바람": {
+      "atk_cnt": 9,
+      "cost": 4,
+      "desc": "돌개바람을 일으켜 연속적으로 피해를 입힌다.",
+      "ignore_defense_rate": 20,
+      "name": "돌개바람",
+      "percent": 15,
+      "related": {
+        "0": {
+          "coefficient": 1.6,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "돌려차기": {
+      "ar_rate": 0.8,
+      "cost": 3,
+      "desc": "큰 호를 그리며 상대방을 돌려찬다.",
+      "ignore_defense_rate": 20,
+      "name": "돌려차기",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 1.9,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 0.8,
+          "related": "dex"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "라이트닝": {
+      "cost": 4,
+      "desc": "한줄기의 번개를 적에게 쏘아보낸다.",
+      "name": "라이트닝",
+      "percent": 15,
+      "related": {
+        "0": {
+          "coefficient": 2.9,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "라이트닝볼트": {
+      "cost": 2,
+      "desc": "번개의 화살을 적에게 쏘아보낸다.",
+      "name": "라이트닝 볼트",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 1.9,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "라이트힐": {
+      "cost": 2,
+      "desc": "신성력으로 체력을 조금 회복시킨다.",
+      "heal": true,
+      "name": "라이트 힐",
+      "percent": 30,
+      "related": {
+        "0": {
+          "coefficient": 1.3,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "랫맨": {
+      "cost": 0,
+      "desc": "랫맨의 빠른 속도가 보이기 시작했다",
+      "name": "사냥꾼의 지혜 - 랫맨",
+      "related": {
+        "0": {
+          "coefficient": "+10",
+          "related": "av"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "마구물어뜯기": {
+      "ar_rate": 0.7,
+      "atk_cnt": 3,
+      "cost": 0,
+      "name": "마구 물어뜯기",
+      "percent": 30,
+      "related": {
+        "0": {
+          "coefficient": 0.5,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "마구잡이": {
+      "ar_rate": 0.7,
+      "atk_cnt": 3,
+      "cost": 1,
+      "desc": "마구잡이로 상대를 공격한다.",
+      "name": "마구잡이",
+      "percent": 50,
+      "related": {
+        "0": {
+          "coefficient": 0.5,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "마나스톰": {
+      "atk_cnt": 5,
+      "cost": 3,
+      "desc": "마나를 과부화 시켜 작은 폭풍을 만들어낸다.",
+      "name": "마나스톰",
+      "percent": 30,
+      "related": {
+        "0": {
+          "coefficient": 0.7,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "마나스트라이크": {
+      "ar_rate": 0.7,
+      "atk_cnt": 7,
+      "cost": 6,
+      "desc": "순수한 마나의 탄환을 연달아 발사하여 적을 타격한다.",
+      "ignore_defense_rate": 15,
+      "name": "마나 스트라이크",
+      "percent": 10,
+      "related": {
+        "0": {
+          "coefficient": 2.7,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "마나써클": {
+      "cost": 8,
+      "desc": "심장 부근에 강력한 마나의 고리를 만들어 마법공격력을 상승시킨다.",
+      "name": "마나써클",
+      "related": {
+        "0": {
+          "coefficient": "+3500",
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "마력집중": {
+      "cost": 1,
+      "desc": "마력을 집중하여 마법 공격력을 상승시킨다.",
+      "name": "마력집중",
+      "related": {
+        "0": {
+          "coefficient": 0.15,
+          "related": "matk"
+        },
+        "1": {
+          "coefficient": -0.1,
+          "related": "hp"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "마법구": {
+      "ar_rate": 1,
+      "cost": 1,
+      "desc": "작은 마나의 탄환을 만들어 적에게 발사한다.",
+      "ignore_defense_rate": 30,
+      "name": "마법구",
+      "percent": 40,
+      "related": {
+        "0": {
+          "coefficient": 1.3,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "맹독바르기": {
+      "cost": 8,
+      "desc": "무기에 치명적인 맹독을 발라 지속적인 피해를 입힌다.",
+      "name": "맹독 바르기",
+      "related": {
+        "0": {
+          "coefficient": 0.05,
+          "related": "poison"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "무거운돌진": {
+      "ar_rate": 0.9,
+      "cost": 1,
+      "desc": "튼튼한 신체는 무기가 된다.",
+      "name": "무거운 돌진",
+      "percent": 40,
+      "related": {
+        "0": {
+          "coefficient": 1.1,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 0.1,
+          "related": "hp"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "무자비": {
+      "cost": 4,
+      "desc": "산적이 되면서 검사로서의 자비를 버렸다.",
+      "name": "무자비",
+      "related": {
+        "0": {
+          "coefficient": "+1500",
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "배팅": {
+      "cost": 3,
+      "desc": "딸때 크게 따고 잃을때 적게 잃는게 배팅의 기본",
+      "name": "배팅",
+      "related": {
+        "0": {
+          "coefficient": "+10",
+          "related": "cd"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "버서커": {
+      "cost": 5,
+      "desc": "스스로를 통제 불능 상태로 만들어 신들린 듯한 격노에 휩쌓인다.",
+      "name": "버서커",
+      "related": {
+        "0": {
+          "coefficient": 2,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "+20",
+          "related": "cr"
+        },
+        "2": {
+          "coefficient": -0.3,
+          "related": "hp"
+        },
+        "3": {
+          "coefficient": -0.8,
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "베기": {
+      "ar_rate": 1,
+      "cost": 1,
+      "desc": "상대의 빈틈을 노려 빠르게 베어낸다.",
+      "ignore_defense_rate": 10,
+      "name": "베기",
+      "percent": 30,
+      "related": {
+        "0": {
+          "coefficient": 1.1,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 0.5,
+          "related": "dex"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "분신술": {
+      "cost": 7,
+      "desc": "자신의 회피율의 일부를 물리공격력에 추가한다.",
+      "name": "분신술",
+      "test": false,
+      "type": "passive"
+    },
+    "블래스": {
+      "cost": 6,
+      "desc": "신의 축복을 통해 신체를 강화한다.",
+      "effect": {
+        "0": {
+          "coefficient": 3,
+          "related": "aDef"
+        },
+        "1": {
+          "coefficient": 1.5,
+          "related": "def"
+        }
+      },
+      "name": "블래스",
+      "only_once": true,
+      "percent": 30,
+      "test": false,
+      "type": "active"
+    },
+    "빙계마법": {
+      "cost": 1,
+      "desc": "날카롭고 치명적인 빙결마법의 기초",
+      "name": "초급 빙결 마법",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": "+15",
+          "related": "ar"
+        },
+        "1": {
+          "coefficient": "+100",
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "사이클롭스": {
+      "cost": 0,
+      "desc": "외눈이 노리는 날카로운 공격을 막는데 더욱 단련하였다",
+      "name": "사냥꾼의 지혜 - 사이클롭스",
+      "related": {
+        "0": {
+          "coefficient": "+2",
+          "related": "aDef"
+        },
+        "1": {
+          "coefficient": "+50",
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "산사나이": {
+      "cost": 1,
+      "desc": "산속 생활로 신체가 강건해졌다.",
+      "name": "산사나이",
+      "related": {
+        "0": {
+          "coefficient": "+15",
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "+200",
+          "related": "hp"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "생명의물결": {
+      "cost": 6,
+      "desc": "신의 축복을 통해 생명력을 증가시킨다.",
+      "effect": {
+        "0": {
+          "coefficient": 1.5,
+          "related": "hp"
+        }
+      },
+      "name": "생명의물결",
+      "only_once": true,
+      "percent": 30,
+      "test": false,
+      "type": "active"
+    },
+    "생명의찬가": {
+      "cost": 4,
+      "desc": "생명의찬가를 불러 지속적으로 체력을 회복시킨다.",
+      "effect": {
+        "0": {
+          "coefficient": 0.05,
+          "related": "hp_regen"
+        }
+      },
+      "name": "생명의찬가",
+      "only_once": true,
+      "percent": 30,
+      "test": false,
+      "type": "active"
+    },
+    "섬광": {
+      "ar_rate": 0.5,
+      "atk_cnt": 8,
+      "cost": 3,
+      "desc": "오로지 타수에만 집중한 섬광과도 같은 연속공격",
+      "name": "섬광",
+      "percent": 10,
+      "related": {
+        "0": {
+          "coefficient": 0.4,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "성스러운방패": {
+      "cost": 6,
+      "desc": "거대한 방패에 깃든 신성력이 적의 치명적인 공격을 막아준다.",
+      "name": "성스러운 방패",
+      "related": {
+        "0": {
+          "coefficient": "+10",
+          "related": "aDef"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "손목자르기": {
+      "cost": 2,
+      "desc": "순간적으로 상대의 손목을 잘라낸다.",
+      "name": "손목 자르기",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 1.6,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "수련장고인물": {
+      "cost": 3,
+      "desc": "성장의 가능성이 꿈틀거린다.",
+      "name": "수련장고인물",
+      "related": {
+        "0": {
+          "coefficient": 0.05,
+          "related": "hp"
+        },
+        "1": {
+          "coefficient": 0.05,
+          "related": "atk"
+        },
+        "2": {
+          "coefficient": 0.05,
+          "related": "matk"
+        },
+        "3": {
+          "coefficient": 0.05,
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive",
+      "비고": "도감 직업(특수)"
+    },
+    "수리검난무": {
+      "ar_rate": 0.8,
+      "atk_cnt": 32,
+      "cost": 6,
+      "desc": "수백개의 수리검을 던져 적을 공격한다.",
+      "ignore_defense_rate": 20,
+      "name": "수리검 난무",
+      "percent": 10,
+      "related": {
+        "0": {
+          "coefficient": 0.1,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 50,
+          "related": "spd"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "수리검투척": {
+      "ar_rate": 1.7,
+      "atk_cnt": 2,
+      "cost": 1,
+      "desc": "날카로운 수리검 두개를 동시에 던져 공격한다.",
+      "ignore_defense_rate": 30,
+      "name": "수리검 투척",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 0.4,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 30,
+          "related": "spd"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "숲의아이": {
+      "cost": 1,
+      "desc": "숲의 사랑을 받고있다.",
+      "name": "숲의아이",
+      "related": {
+        "0": {
+          "coefficient": "+120",
+          "related": "matk"
+        },
+        "1": {
+          "coefficient": "+100",
+          "related": "hp"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "스매시": {
+      "ar_rate": 0.7,
+      "cost": 3,
+      "desc": "상대를 날려버릴 기세로 공격한다.",
+      "ignore_defense_rate": 20,
+      "name": "스매시",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 1.7,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "슬라임": {
+      "cost": 0,
+      "desc": "슬라임이 피부에 닿을때 마다의 따가움이 사라졌다",
+      "name": "사냥꾼의 지혜 - 슬라임",
+      "related": {
+        "0": {
+          "coefficient": "+1",
+          "related": "aDef"
+        },
+        "1": {
+          "coefficient": "+10",
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "신검합일": {
+      "cost": 5,
+      "desc": "스스로의 신체와 검이 하나가 되었다.",
+      "name": "신검합일",
+      "related": {
+        "0": {
+          "coefficient": 0.85,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "+60",
+          "related": "cr"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "신성력": {
+      "cost": 3,
+      "desc": "꾸준한 믿음으로 신성력이 조금 생겨났다.",
+      "name": "신성력",
+      "related": {
+        "0": {
+          "coefficient": "+4",
+          "related": "aDef"
+        },
+        "1": {
+          "coefficient": "+50",
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "신앙심": {
+      "cost": 1,
+      "desc": "신을 섬기는 마음으로 굳건한 의지가 생겼다.",
+      "name": "신앙심",
+      "related": {
+        "0": {
+          "coefficient": "+3",
+          "related": "aDef"
+        },
+        "1": {
+          "coefficient": "+20",
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "아이스대거": {
+      "ar_rate": 5,
+      "cost": 2,
+      "desc": "날카로운 얼음의 단검을 생성해 적에게 빠른속도로 쏘아 보낸다.",
+      "ignore_defense_rate": 60,
+      "name": "아이스 대거",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 1.4,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "암살": {
+      "cost": 10,
+      "desc": "전투 시작과 동시에 빠르게 상대를 암살한다.",
+      "first_turn": true,
+      "ignore_defense_rate": 100,
+      "name": "암살",
+      "only_once": true,
+      "percent": 100,
+      "related": {
+        "0": {
+          "coefficient": 3,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 0.2,
+          "related": "dexPower"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "애니멀폼울프": {
+      "cost": 8,
+      "desc": "늑대의 모습으로 변신해 크리티컬과 물리공격력을 상승시킨다.",
+      "name": "애니멀폼 - 울프",
+      "related": {
+        "0": {
+          "coefficient": "+3500",
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "+50",
+          "related": "cr"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "야수성": {
+      "cost": 1,
+      "desc": "내면의 야수성을 깨워 몸을 사리지 않는 전투를 이어간다.",
+      "name": "야수성",
+      "related": {
+        "0": {
+          "coefficient": "+80",
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "-200",
+          "related": "hp"
+        },
+        "2": {
+          "coefficient": "-20",
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "연금술": {
+      "cost": 3,
+      "desc": "연금술을 연구하여 마법공격력이 상승한다.",
+      "name": "연금술",
+      "related": {
+        "0": {
+          "coefficient": "+400",
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "연속베기": {
+      "ar_rate": 0.8,
+      "atk_cnt": 5,
+      "cost": 5,
+      "desc": "더이상 마구잡이로 휘두르지 않는다.",
+      "name": "연속베기",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 2.1,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "오크": {
+      "cost": 0,
+      "desc": "방심할수 없는 오크와의 싸움으로 전투가 더욱 익숙해졌다",
+      "name": "사냥꾼의 지혜 - 오크",
+      "related": {
+        "0": {
+          "coefficient": "+30",
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "+30",
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "올빼미의지혜": {
+      "cost": 3,
+      "desc": "올빼미들의 지혜를 전수받았다.",
+      "name": "올빼미의 지혜",
+      "related": {
+        "0": {
+          "coefficient": 0.15,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "은신": {
+      "cost": 1,
+      "desc": "기척을 숨기고 행동한다.",
+      "name": "은신",
+      "related": {
+        "0": {
+          "coefficient": "+30",
+          "related": "av"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "인챈트매직": {
+      "cost": 2,
+      "desc": "어설프게 나마 일반공격에 마력을 담아 공격한다. 집중하는 동안 자세가 흐트러진다.",
+      "name": "인챈트 - 매직",
+      "related": {
+        "0": {
+          "coefficient": -0.33,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 1,
+          "related": "add_matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "일도양단": {
+      "ar_rate": 1.8,
+      "cost": 3,
+      "desc": "수만번의 베기 끝에 단한번의 일격으로 적을 두동강내는 기술을 익혔다.",
+      "name": "일도양단",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 2.3,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "자연의격노": {
+      "cost": 3,
+      "desc": "격노하는 자연의 힘으로 적을 공격한다.",
+      "name": "자연의 격노",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 2.7,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "재생": {
+      "cost": 4,
+      "desc": {
+        "0": "막대한 피해를 입었을때",
+        "1": "순간적으로 체력을 회복시킨다."
+      },
+      "name": "재생",
+      "related": {
+        "0": {
+          "coefficient": 0.4,
+          "related": "rewind"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "저격": {
+      "ar_rate": 4,
+      "cost": 3,
+      "desc": "숨을 죽이고 상대방의 가장 약한 부분을 저격한다.",
+      "ignore_defense_rate": 95,
+      "name": "저격",
+      "percent": 70,
+      "related": {
+        "0": {
+          "coefficient": 1.2,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 15,
+          "related": "ar"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "저격수": {
+      "cost": 7,
+      "desc": "자신의 명중률의 일부가 물리공격력에 추가된다.",
+      "name": "저격수",
+      "related": {
+        "0": {
+          "coefficient": "to_ar_1.5",
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "전격마법": {
+      "cost": 1,
+      "desc": "불안정하지만 위력적인 뇌전마법의 기초",
+      "name": "초급 뇌전 마법",
+      "related": {
+        "0": {
+          "coefficient": "+25",
+          "related": "cd"
+        },
+        "1": {
+          "coefficient": "-200",
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "전투술": {
+      "cost": 5,
+      "desc": {
+        "0": "노련한 전투술로",
+        "1": "전투에 필요한 다양한 능력치가 상승한다."
+      },
+      "name": "전투술",
+      "related": {
+        "0": {
+          "coefficient": 0.1,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "+15",
+          "related": "cr"
+        },
+        "2": {
+          "coefficient": "+15",
+          "related": "cd"
+        },
+        "3": {
+          "coefficient": 0.1,
+          "related": "hp"
+        },
+        "4": {
+          "coefficient": 0.1,
+          "related": "def"
+        },
+        "5": {
+          "coefficient": "+10",
+          "related": "av"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "정권": {
+      "ar_rate": 1.1,
+      "cost": 1,
+      "desc": "올바른 자세로 상대에게 주먹을 뻗어친다.",
+      "name": "정권",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 1.1,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 0.5,
+          "related": "dex"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "정밀시전": {
+      "cost": 2,
+      "desc": "정밀하게 마법을 시전하여 대상을 놓치지 않는다.",
+      "name": "정밀시전",
+      "related": {
+        "0": {
+          "coefficient": "+20",
+          "related": "ar"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "정조준": {
+      "ar_rate": 1.7,
+      "cost": 1,
+      "desc": "침착하게 정조준하여 활을 쏜다.",
+      "ignore_defense_rate": 20,
+      "name": "정조준",
+      "percent": 80,
+      "related": {
+        "0": {
+          "coefficient": 1.1,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 1,
+          "related": "ar"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "중급검술": {
+      "cost": 3,
+      "desc": {
+        "0": "최소한의 움직임으로 회피하고",
+        "1": "적은 힘으로 큰힘을 낼 수 있다."
+      },
+      "name": "중급 검술",
+      "related": {
+        "0": {
+          "coefficient": "+120",
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "+8",
+          "related": "ar"
+        },
+        "2": {
+          "coefficient": "+6",
+          "related": "cr"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "중급뇌전마법": {
+      "cost": 3,
+      "desc": "불안정하지만 위력적인 뇌전마법",
+      "name": "중급 뇌전마법",
+      "related": {
+        "0": {
+          "coefficient": "+75",
+          "related": "cd"
+        },
+        "1": {
+          "coefficient": -0.2,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "중급빙결마법": {
+      "cost": 3,
+      "desc": "날카롭고 치명적인 빙결마법",
+      "name": "중급 빙결마법",
+      "related": {
+        "0": {
+          "coefficient": "+45",
+          "related": "ar"
+        },
+        "1": {
+          "coefficient": "+300",
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "중급화염마법": {
+      "cost": 3,
+      "desc": "위력적이지만 위험한 화염마법",
+      "name": "중급 화염마법",
+      "related": {
+        "0": {
+          "coefficient": "+750",
+          "related": "hp"
+        },
+        "1": {
+          "coefficient": "+900",
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "쥐": {
+      "cost": 0,
+      "desc": "쥐를 잡으러 뛰어다니다 보니 빨라진 기분이든다",
+      "name": "사냥꾼의 지혜 - 쥐",
+      "related": {
+        "0": {
+          "coefficient": "+5",
+          "related": "av"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "질긴피부": {
+      "cost": 1,
+      "desc": "꼬매고 꼬맨 피부가 점차 질겨졌다.",
+      "name": "질긴 피부",
+      "related": {
+        "0": {
+          "coefficient": 0.1,
+          "related": "hp"
+        },
+        "1": {
+          "coefficient": "+20",
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "집중": {
+      "cost": 1,
+      "desc": "침착하게 집중하여 재빠른 상대를 정확하게 공격할 수 있다.",
+      "name": "집중",
+      "related": {
+        "0": {
+          "coefficient": "+10",
+          "related": "ar"
+        },
+        "1": {
+          "coefficient": "+5",
+          "related": "cr"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "참격": {
+      "ar_rate": 1.4,
+      "cost": 4,
+      "desc": "적을 강하고 정확하게 베어낸다.",
+      "name": "참격",
+      "percent": 15,
+      "related": {
+        "0": {
+          "coefficient": 4.3,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "참수": {
+      "ar_rate": 0.4,
+      "cost": 4,
+      "desc": "적을 목을 겨냥하여 베는 기술",
+      "name": "참수",
+      "percent": 15,
+      "related": {
+        "0": {
+          "coefficient": 6.3,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "철벽": {
+      "cost": 3,
+      "desc": "철벽과도 같은 견고함을 얻는다.",
+      "name": "철벽",
+      "related": {
+        "0": {
+          "coefficient": 0.3,
+          "related": "def"
+        },
+        "1": {
+          "coefficient": "+300",
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "체력단련": {
+      "cost": 1,
+      "desc": "체력을 단련하여 오랜시간 전투가 가능해진다.",
+      "name": "체력 단련",
+      "related": {
+        "0": {
+          "coefficient": "+300",
+          "related": "hp"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "체력단련2": {
+      "cost": 3,
+      "desc": "체력을 더더욱 단련하여 오랜시간 전투가 가능해진다.",
+      "name": "체력 단련2",
+      "related": {
+        "0": {
+          "coefficient": "+500",
+          "related": "hp"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "초급검술": {
+      "cost": 1,
+      "desc": "빠르고 강하게 적의 급소를 노리기 위한 검술",
+      "name": "초급 검술",
+      "related": {
+        "0": {
+          "coefficient": "+40",
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "+5",
+          "related": "ar"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "초심자의행운": {
+      "cost": 1,
+      "desc": "첫게임에서 따는 사람은 신의 사랑을 못받는 사람이라고 한다.",
+      "name": "초심자의 행운",
+      "related": {
+        "0": {
+          "coefficient": "+10",
+          "related": "cr"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "카드섞기": {
+      "ar_rate": 1,
+      "cost": 1,
+      "desc": "카드를 섞어 운명을 점친다.",
+      "effect": {
+        "0": {
+          "coefficient": 0.2,
+          "related": "random"
+        }
+      },
+      "name": "카드섞기",
+      "only_once": true,
+      "percent": 30,
+      "test": false,
+      "type": "active"
+    },
+    "투신": {
+      "cost": 6,
+      "desc": "눈으로 쫒을 수 없는 빠른 움직임으로 적을 공격한다.",
+      "name": "투신",
+      "related": {
+        "0": {
+          "coefficient": "-150",
+          "related": "as"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "투지": {
+      "cost": 1,
+      "desc": "넘어져도 다시 일어나는 정신",
+      "name": "투지",
+      "related": {
+        "0": {
+          "coefficient": "+20",
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": "+10",
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "파이어볼": {
+      "cost": 4,
+      "desc": "거대한 화염의 공을 적에게 쏘아보낸다.",
+      "name": "파이어볼",
+      "percent": 15,
+      "reflux_hp": 0.01,
+      "related": {
+        "0": {
+          "coefficient": 3.8,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "파이어볼트": {
+      "cost": 2,
+      "desc": "작은 화염의 구를 적에게 쏘아보낸다.",
+      "name": "파이어 볼트",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 1.8,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "포식": {
+      "ar_rate": 1,
+      "cost": 2,
+      "desc": "상대방을 크게 한입 베어 먹는다.",
+      "hp_regen": 0.1,
+      "name": "포식",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 1,
+          "related": "atk"
+        },
+        "1": {
+          "coefficient": 0.2,
+          "related": "hp"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "폭약던지기": {
+      "cost": 3,
+      "desc": "충격을 받으면 폭발하는 폭약을 적에게 던진다.",
+      "ignore_defense_rate": 10,
+      "name": "폭약 던지기",
+      "percent": 20,
+      "related": {
+        "0": {
+          "coefficient": 3,
+          "related": "matk"
+        },
+        "1": {
+          "coefficient": 0.5,
+          "related": "atk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "프로즌블래스트": {
+      "ar_rate": 1,
+      "cost": 4,
+      "desc": "냉기의 구체를 적에게 발사한다.",
+      "ignore_defense_rate": 30,
+      "name": "프로즌 블래스트",
+      "percent": 15,
+      "related": {
+        "0": {
+          "coefficient": 2.4,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "혐오스러운거구": {
+      "cost": 3,
+      "desc": {
+        "0": "몸집이 커진만큼",
+        "1": "생명력과 방어력이 증가했다."
+      },
+      "name": "혐오스러운 거구",
+      "related": {
+        "0": {
+          "coefficient": 0.3,
+          "related": "hp"
+        },
+        "1": {
+          "coefficient": "+60",
+          "related": "def"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "화염구": {
+      "cost": 3,
+      "desc": {
+        "0": "제대로 배우지 못하고 위력에만 몰두한 거대한 화염구",
+        "1": "시전자 조차 피해를 받는다."
+      },
+      "name": "화염구",
+      "percent": 20,
+      "reflux_hp": 0.1,
+      "related": {
+        "0": {
+          "coefficient": 3.2,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    },
+    "화염마법": {
+      "cost": 1,
+      "desc": "위력적이지만 위험한 화염마법의 기초",
+      "name": "초급 화염 마법",
+      "related": {
+        "0": {
+          "coefficient": "+250",
+          "related": "hp"
+        },
+        "1": {
+          "coefficient": "+300",
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "흐리기": {
+      "cost": 3,
+      "desc": "신체를 흐리게 하여 적의 공격을 회피한다.",
+      "name": "흐리기",
+      "related": {
+        "0": {
+          "coefficient": "+50",
+          "related": "av"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "흡혈": {
+      "cost": 2,
+      "desc": "일반 공격 시 상대의 생명력을 훔쳐온다.",
+      "name": "흡혈",
+      "related": {
+        "0": {
+          "coefficient": 0.05,
+          "related": "blood"
+        }
+      },
+      "test": false,
+      "type": "passive"
+    },
+    "힐": {
+      "cost": 3,
+      "desc": "신성력으로 체력을 회복시킨다.",
+      "heal": true,
+      "name": "힐",
+      "percent": 30,
+      "related": {
+        "0": {
+          "coefficient": 2.3,
+          "related": "matk"
+        }
+      },
+      "test": false,
+      "type": "active"
+    }
+  }
+}
