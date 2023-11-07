@@ -13,6 +13,9 @@ const Home = () => {
       <NavLink to="/web_animaitons_API" className="link">
         <h1>Inflearn WebAnimaitonsAPI 수업 정리</h1>
       </NavLink>
+      <NavLink to="/eternalreturn" className="link">
+        <h1>이터널 리턴</h1>
+      </NavLink>
       <div className={styles.css}>Activity.</div>
     </>
   );
